@@ -38,7 +38,11 @@ The lab consists of two main tasks:
 
 ## Usage Examples
 
-1. Function date() returns a string formatted according to the given format string(in our case day of the week `"l"`). An if-else statement is used to check whether the current day matches the employee's work schedule. If the day matches the working days, the corresponding time is displayed. Otherwise, "Non-working day" is shown. 
+1. Function `date()` returns a string formatted according to the given format string(in our case day of the week `"l"`).
+
+An if-else statement is used to check whether the current day matches the employee's work schedule. 
+
+If the day matches the working days, the corresponding time is displayed. Otherwise, "Non-working day" is shown. 
 
 ```php
 
