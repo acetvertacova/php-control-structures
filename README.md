@@ -31,9 +31,9 @@ Mastering the use of conditional statements and loops in PHP for automating data
 
 The lab consists of two main tasks:
 
--Conditional Statements (if-else) with the date() Function
-
--Loops (for, while, and do-while)
+   - Conditional Statements (if-else) with the date() Function
+   
+   - Loops (for, while, and do-while)
 
 
 ## Usage Examples
