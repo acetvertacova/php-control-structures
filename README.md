@@ -69,6 +69,7 @@ If the day matches the working days, the corresponding time is displayed. Otherw
 
     - `for`
 
+
     ```php
     for ($i = 0; $i <= 5; $i++):
             $a += 10;
@@ -80,6 +81,7 @@ If the day matches the working days, the corresponding time is displayed. Otherw
     ```
 
     - `while` checks the condition before executing the loop. If the condition is false initially, the code inside the loop will not execute.
+
 
     ```php
     while ($i <= 5):
@@ -93,6 +95,7 @@ If the day matches the working days, the corresponding time is displayed. Otherw
     ```
 
     - `do-while` executes at least one iteration because the condition is checked after the first execution of the code.
+
 
     ```php
     <?php
