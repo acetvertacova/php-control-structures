@@ -65,7 +65,7 @@ The lab consists of two main tasks:
 
 2. This code demonstrates how to output the values of $a and $b at each step of the loop. Moreover, I demonstrate 3 different types of control structures:
 
-    - simple `for`
+    - `for`
 
     ```php
     for ($i = 0; $i <= 5; $i++):
@@ -77,7 +77,7 @@ The lab consists of two main tasks:
     <?php endfor; ?>
     ```
 
-    -`while` checks the condition before executing the loop. If the condition is false initially, the code inside the loop will not execute.
+    - `while` checks the condition before executing the loop. If the condition is false initially, the code inside the loop will not execute.
 
     ```php
     while ($i <= 5):
