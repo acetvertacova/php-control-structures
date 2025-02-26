@@ -1,4 +1,4 @@
-# Laboratory Work №1: Control Structures
+# Laboratory Work №2: Control Structures
 
 ### Step 1: Installing PHP 
 
