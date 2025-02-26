@@ -120,8 +120,10 @@ If the day matches the working days, the corresponding time is displayed. Otherw
 
 > [!IMPORTANT]
 > The `for` loop is used when you know in advance how many times you want to execute the block of code.
+
 > The `while` loop is used when you don’t know in advance how many times you want to execute the block of code. It continues to execute as long as the specified condition is true.
 It’s important to make sure that the condition eventually becomes false; otherwise, the loop will run indefinitely, resulting in an infinite loop.
+
 > The `do-while` loop is similar to the while loop, but with one key difference: it guarantees that the block of code will execute at least once before checking the condition.
 
 2. How does ternary operator works?
