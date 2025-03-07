@@ -10,13 +10,11 @@
             font-family: 'Inter', sans-serif;
             background-color: #181818;
             color: #dcdcdc;
-            margin: 0;
             padding: 20px;
             text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
         }
 
         .container {
@@ -56,10 +54,6 @@
             background: #383838;
         }
 
-        br {
-            display: block;
-            margin-bottom: 10px;
-        }
     </style>
 </head>
 
@@ -75,7 +69,7 @@
             $a += 10;
             $b += 5;
         ?>
-            <div class="result"><?= $i + 1 ?>: Number 1: <?= $a ?>, number 2: <?= $b ?></div>
+        <div class="result"><?= $i + 1 ?>: Number 1: <?= $a ?>, number 2: <?= $b ?></div>
         <?php endfor; ?>
         <b>End of the loop:</b> a = <?= $a ?>, b = <?= $b ?><br><br>
 

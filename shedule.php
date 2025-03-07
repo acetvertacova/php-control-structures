@@ -17,7 +17,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
         }
 
         .container {
@@ -30,10 +29,8 @@
 
         table {
             width: 100%;
-            border-collapse: collapse;
             background: #2a2a2a;
             border-radius: 8px;
-            overflow: hidden;
         }
 
         table,
