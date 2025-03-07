@@ -1,4 +1,4 @@
-# Laboratory Work №1: Control Structures
+# Laboratory Work №2: Control Structures
 
 ### Step 1: Installing PHP 
 
@@ -31,14 +31,16 @@ Mastering the use of conditional statements and loops in PHP for automating data
 
 The lab consists of two main tasks:
 
--Conditional Statements (if-else) with the date() Function
-
--Loops (for, while, and do-while)
+   - Conditional Statements (if-else) with the date() Function
+   
+   - Loops (for, while, and do-while)
 
 
 ## Usage Examples
 
-1. Function date() returns a string formatted according to the given format string(in our case day of the week `"l"`). An if-else statement is used to check whether the current day matches the employee's work schedule. If the day matches the working days, the corresponding time is displayed. Otherwise, "Non-working day" is shown. 
+1. Function `date()` returns a string formatted according to the given format string(in our case day of the week `"l"`).
+An if-else statement is used to check whether the current day matches the employee's work schedule. 
+If the day matches the working days, the corresponding time is displayed. Otherwise, "Non-working day" is shown. 
 
 ```php
 
@@ -65,7 +67,8 @@ The lab consists of two main tasks:
 
 2. This code demonstrates how to output the values of $a and $b at each step of the loop. Moreover, I demonstrate 3 different types of control structures:
 
-    - simple `for`
+    - `for`
+
 
     ```php
     for ($i = 0; $i <= 5; $i++):
@@ -77,7 +80,8 @@ The lab consists of two main tasks:
     <?php endfor; ?>
     ```
 
-    -`while` checks the condition before executing the loop. If the condition is false initially, the code inside the loop will not execute.
+    - `while` checks the condition before executing the loop. If the condition is false initially, the code inside the loop will not execute.
+
 
     ```php
     while ($i <= 5):
@@ -91,6 +95,7 @@ The lab consists of two main tasks:
     ```
 
     - `do-while` executes at least one iteration because the condition is checked after the first execution of the code.
+
 
     ```php
     <?php
@@ -115,8 +120,10 @@ The lab consists of two main tasks:
 
 > [!IMPORTANT]
 > The `for` loop is used when you know in advance how many times you want to execute the block of code.
+>
 > The `while` loop is used when you don’t know in advance how many times you want to execute the block of code. It continues to execute as long as the specified condition is true.
 It’s important to make sure that the condition eventually becomes false; otherwise, the loop will run indefinitely, resulting in an infinite loop.
+>
 > The `do-while` loop is similar to the while loop, but with one key difference: it guarantees that the block of code will execute at least once before checking the condition.
 
 2. How does ternary operator works?
