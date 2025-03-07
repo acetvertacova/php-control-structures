@@ -72,7 +72,7 @@
             <tr>
                 <td>1</td>
                 <td>John Styles</td>
-                <?php if (date("l") == "Monday" || date("l") == "Wednesday" || date("l") == "Friday"): ?>
+                <?php if (in_array(date('l'), ['Monday', 'Wednesday', 'Friday'])): ?>
                     <td>8:00-12:00</td>
                 <?php else: ?>
                     <td>Нерабочий день</td>
@@ -81,7 +81,7 @@
             <tr>
                 <td>2</td>
                 <td>Jane Doe</td>
-                <?php if (date("l") == "Tuesday" || date("l") == "Thursday" || date("l") == "Saturday"): ?>
+                <?php if (in_array(date('l'), ['Tuesday', 'Thirsday', 'Saturday'])): ?>
                     <td>12:00-16:00</td>
                 <?php else: ?>
                     <td>Нерабочий день</td>
